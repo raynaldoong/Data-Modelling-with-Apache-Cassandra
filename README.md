@@ -47,3 +47,7 @@ Table user_by_song with Primary Key (song, userId)
 4. **event_datafile_new.csv** a smaller event data csv file that will be used to insert data into the Apache Cassandra tables.
 5. **images** a screenshot of what the denormalized data should appear like in the event_datafile_new.csv. 
 6. **README.md** current file, provides discussion on my project.
+
+# How to Use
+
+Launch **Project_1B_ Project_Template.ipynb** to run validation and example queries.
