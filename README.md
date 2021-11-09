@@ -14,7 +14,7 @@ event_data/2018-11-09-events.csv
 ```
 The datasets contains the following columns:
 - artist
-- firstName of user
+- first name of user
 - gender of user
 - item number in session
 - last name of user
