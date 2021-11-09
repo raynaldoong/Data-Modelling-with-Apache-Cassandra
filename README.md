@@ -13,14 +13,14 @@ event_data/2018-11-08-events.csv
 event_data/2018-11-09-events.csv
 ```
 The datasets contain the following column:
-1.artist
--firstName of user
--gender of user
--item number in session
--last name of user
--length of the song
--level (paid or free song)
--location of the user
--sessionId
--song title
--userId
+- artist
+- firstName of user
+- gender of user
+- item number in session
+- last name of user
+- length of the song
+- level (paid or free song)
+- location of the user
+- sessionId
+- song title
+- userId
