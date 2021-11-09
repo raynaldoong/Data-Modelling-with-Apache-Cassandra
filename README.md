@@ -12,7 +12,8 @@ The dataset used for this project: event_data. The directory of CSV files partit
 event_data/2018-11-08-events.csv
 event_data/2018-11-09-events.csv
 ```
--artist
+The datasets contain the following column:
+1.artist
 -firstName of user
 -gender of user
 -item number in session
