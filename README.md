@@ -12,7 +12,7 @@ The dataset used for this project: event_data. The directory of CSV files partit
 event_data/2018-11-08-events.csv
 event_data/2018-11-09-events.csv
 ```
-The datasets contain the following column:
+The datasets contains the following columns:
 - artist
 - firstName of user
 - gender of user
@@ -24,3 +24,11 @@ The datasets contain the following column:
 - sessionId
 - song title
 - userId
+
+# Queries
+## Query 1: Give me the artist, song title and song's length in the music app history that was heard during sessionId = 338, and itemInSession = 4
+<img src="query1.png" alt="query1" width="800"/>
+## Query 2: Give me only the following: name of artist, song (sorted by itemInSession) and user (first and last name) for userid = 10, sessionid = 182
+<img src="query2.png" alt="query2" width="800"/>
+## Query 3: Give me every user name (first and last) in my music app history who listened to the song 'All Hands Against His Own'
+<img src="query3.png" alt="query3" width="800"/>
