@@ -25,12 +25,16 @@ The datasets contains the following columns:
 - song title
 - userId
 
-# Queries
+# Queries (result in jupyter notebook)
 ## Query 1: Give me the artist, song title and song's length in the music app history that was heard during sessionId = 338, and itemInSession = 4
+Table created with Primary Key (sessionId,itemInSession): 
 <img src="query1.png" alt="query1" width="200"/>
 
 ## Query 2: Give me only the following: name of artist, song (sorted by itemInSession) and user (first and last name) for userid = 10, sessionid = 182
+Table created with with Partition Key (userId, sessionId) and Clustering Column (itemInSession):
 <img src="query2.png" alt="query2" width="200"/>
-## Query 3: Give me every user name (first and last) in my music app history who listened to the song 'All Hands Against His Own'
 
+## Query 3: Give me every user name (first and last) in my music app history who listened to the song 'All Hands Against His Own'
+Table user_by_song with Primary Key (song, userId)
 <img src="query3.png" alt="query3" width="200"/>
+
