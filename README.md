@@ -26,7 +26,7 @@ The datasets contains the following columns:
 - userId
 
 # Queries 
-**result in jupyter notebook**
+**Results shown in Project_1B_ Project_Template.ipynb**
 
 ## Query 1: Give me the artist, song title and song's length in the music app history that was heard during sessionId = 338, and itemInSession = 4
 Table created with Primary Key (sessionId,itemInSession)
