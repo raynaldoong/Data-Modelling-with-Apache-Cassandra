@@ -42,3 +42,8 @@ Table user_by_song with Primary Key (song, userId)
 <img src="query3.png" alt="query3" width="200"/>
 
 # Project Respository Files
+1. **event_data** folder nested at the home of the project, where all needed data reside.
+3. **Project_1B_ Project_Template.ipynb** the code itself.
+4. **event_datafile_new.csv** a smaller event data csv file that will be used to insert data into the Apache Cassandra tables.
+5. **images** a screenshot of what the denormalized data should appear like in the event_datafile_new.csv. 
+6. **README.md** current file, provides discussion on my project.
